@@ -6,7 +6,7 @@ php5-common php5-iconv php5-json php5-gd php5-curl php5-xml php5-pgsql php5-imap
 python py-pip \
 unrar dcron 
 
-RUN pip install transmissionrpc requests bs4 flock rarfil configparser supervisor 
+RUN pip install transmissionrpc requests bs4 flock rarfile configparser supervisor 
 
 RUN mkdir /var/run/lighttpd
 RUN touch /var/run/lighttpd/php-fastcgi.socket
